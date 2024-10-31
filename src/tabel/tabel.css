@@ -1,0 +1,64 @@
+.plist-main {
+  width: 100%;
+  padding: 10px;
+}
+.update {
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+  background-color: #05089b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.plist-fill {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.plist-fill button {
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+  border-bottom: solid 1px rgb(139, 139, 231);
+}
+.table-container {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.table-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-table th {
+  background-color: #469949;
+  color: white;
+  text-align: left;
+  padding: 12px;
+}
+
+.project-table td {
+  padding: 12px;
+  border-bottom: 1px solid #47444d;
+}
+
+.project-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.project-table td {
+  background-color: #222342;
+}
